@@ -1,0 +1,3 @@
+-- AlterTable
+ALTER TABLE `user` ADD COLUMN `age` INTEGER NULL,
+    MODIFY `role` ENUM('ADMIN', 'AUTEUR', 'USER') NOT NULL DEFAULT 'USER';
